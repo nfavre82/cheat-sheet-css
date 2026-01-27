@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet - The Box Model</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="nav-link" href="#first-table">Box Model Layers</a></li>
+                <li><a class="nav-link" href="#second-table">Model's CSS Properties</a></li>
+                <li><a class="nav-link" href="https://github.com/nfavre82" target="_blank">About Me</a></li>
+            </ul>
+        </nav>
+        <h1>Cheat Sheet: The Box Model</h1>
+    </header>
+    <main> 
+        <section>
+            <h2 id="first-table">The Box Model Layers</h2>
+            <table >
+                <thead>
+                    <tr>
+                        <th class="th-styling">Layer</th>
+                        <th class="th-styling">Defining HTML element</th>
+                        <th class="th-styling">Description</th>
+                    </tr>
+                </thead
+                <tbody>
+                    <tr>
+                        <td class="terminology">Content</td>
+                        <td><span class="code-monospace">&lt;width&gt;</span> / <span class="code-monospace">&lt;height&gt;</span></td>
+                        <td>The actual content of the element (text, image, etc.).</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">Padding</td>
+                        <td><span class="code-monospace">&lt;padding&gt;</span></td>
+                        <td>Creates space between the content and the border.</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">Border</td>
+                        <td><span class="code-monospace">&lt;border&gt;</span></td>
+                        <td>Wraps the padding and content; visible outline of the box.</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">Margin</td>
+                        <td><span class="code-monospace">&lt;margin&gt;</span></td>
+                        <td>Creates space outside the element, separating it from others.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <figure>
+                <img class=".box-model-img" src="assets/box_model.png" alt="The Box Model in CSS">
+                <figcaption>The Box Model in CSS (taken on <a class="figcaption-link" href="https://edu.gcfglobal.org/en/basic-css/the-css-box-model/1/">GCF Global</a>)</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2 class="second-subheading" id="second-table">The Box Model: Core CSS Properties</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="th-styling">Property</th>
+                        <th class="th-styling">Possible Values and/or Examples</th>
+                        <th class="th-styling">Effect on the Box Model</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="terminology">box-sizing</td>
+                        <td><span class="code-monospace">content-box</span> / <span class="code-monospace">border-box</span></td>
+                        <td>Defines whether padding and border are included in width and height.</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">display</td>
+                        <td><span class="code-monospace">block</span> / <span class="code-monospace">inline</span> / <span class="code-monospace">inline-block</span></td>
+                        <td>Defines how the element flows and how its box behaves.</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">overflow</td>
+                        <td><span class="code-monospace">auto</span> / <span class="code-monospace">hidden</span> / <span class="code-monospace">scroll</span> / <span class="code-monospace">visible</span></td>
+                        <td>Controls what happens when content exceeds the box.</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">border</td>
+                    </tr>
+                    <tr> <!-- RESUME HERE -->
+                        <td class="terminology">border-radius</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">width / height</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">max-width / max-height</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">margin</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">padding</td>
+                    </tr>
+                    <tr>
+                        <td class="terminology">margin shorthand / padding shorthand</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Designed &amp; Developed by <a class="web-developer" href="https://github.com/nfavre82">NF Web Development Studio</a>, &copy;2026</p>
+    </footer>
+</body> 
+</html>
+
+<!-- Complete the second table. Include a small logo separator between both sections. Change links colors and backgrounds -->
