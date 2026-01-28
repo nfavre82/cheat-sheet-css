@@ -20,14 +20,14 @@
     <main> 
         <section>
             <h2 id="first-table">The Box Model Layers</h2>
-            <table >
+            <table>
                 <thead>
                     <tr>
                         <th class="th-styling">Layer</th>
                         <th class="th-styling">Defining HTML element</th>
                         <th class="th-styling">Description</th>
                     </tr>
-                </thead
+                </thead>
                 <tbody>
                     <tr>
                         <td class="terminology">Content</td>
@@ -56,6 +56,7 @@
                 <figcaption>The Box Model in CSS (taken on <a class="figcaption-link" href="https://edu.gcfglobal.org/en/basic-css/the-css-box-model/1/">GCF Global</a>)</figcaption>
             </figure>
         </section>
+        <hr class="section-divider">
         <section>
             <h2 class="second-subheading" id="second-table">The Box Model: Core CSS Properties</h2>
             <table>
@@ -84,24 +85,38 @@
                     </tr>
                     <tr>
                         <td class="terminology">border</td>
+                        <td><span class="code-monospace">border: solid 1px green</span> (the order of the values does not matter.)</td>
+                        <td>Adds a visible boundary around the padding and content. </td>
                     </tr>
-                    <tr> <!-- RESUME HERE -->
+                    <tr> 
                         <td class="terminology">border-radius</td>
+                        <td><span class="code-monospace">border-radius: 25px</span> / <span class="code-monospace">border-radius: 10%</span></td>
+                        <td>Rounds the corners of the box, affecting the border and background.</td>
                     </tr>
                     <tr>
                         <td class="terminology">width / height</td>
+                        <td><span class="code-monospace">width: 500px</span> / <span class="code-monospace">height: auto</span></td>
+                        <td>Defines the size of the content box (or entire box with border-box).</td>
                     </tr>
                     <tr>
                         <td class="terminology">max-width / max-height</td>
+                        <td><span class="code-monospace">max-width: 100%</span> / <span class="code-monospace">max-height: 800px</span></td>
+                        <td>Limits how large an element can grow, useful for responsive layouts.</td>
                     </tr>
                     <tr>
                         <td class="terminology">margin</td>
+                        <td><span class="code-monospace">margin-left 30px</span> / <span class="code-monospace">margin: auto 50%</span></td>
+                        <td>Creates space outside the element’s border, affecting layout and spacing.</td>
                     </tr>
                     <tr>
                         <td class="terminology">padding</td>
+                        <td><span class="code-monospace">padding-bottom: 5%</span> / <span class="code-monospace">padding: 20px 15px</span></td>
+                        <td>Creates space between the content and the border, increasing the box size.</td>
                     </tr>
                     <tr>
                         <td class="terminology">margin shorthand / padding shorthand</td>
+                        <td><span class="code-monospace">padding: 15px 20px 30px 55px</span> / <span class="code-monospace">margin: 20px 15px 28px</span> / <span class="code-monospace">margin: 200px 250px</span> / <span class="code-monospace">padding:55px</span></td>
+                        <td>Sets top, right, bottom, and left margins or padding in a single declaration.</td>
                     </tr>
                 </tbody>
             </table>
@@ -109,8 +124,13 @@
     </main>
     <footer>
         <p>Designed &amp; Developed by <a class="web-developer" href="https://github.com/nfavre82">NF Web Development Studio</a>, &copy;2026</p>
+        <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!">
+        </a>
+        </p>
     </footer>
 </body> 
 </html>
-
-<!-- Complete the second table. Include a small logo separator between both sections. Change links colors and backgrounds -->

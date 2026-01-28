@@ -60,6 +60,14 @@ h1 {
     max-width: 100%;
 }
 
+.section-divider {
+    border: none;
+    height: 2px;
+    width: 60%;
+    margin: 6% auto 2%;
+    background: linear-gradient(to right, transparent, #e3a8a8, transparent);
+}
+
 .second-subheading, h2 {
     font-size: 35px;
 }
@@ -70,7 +78,7 @@ h2 {
 }
 
 .second-subheading {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 27%;
     padding-top: 25px;
 }
@@ -136,30 +144,30 @@ figcaption {
 }
 
 .figcaption-link:link, .web-developer:link {
-    color: #FA8F39;
+    color: navajowhite;
     cursor: pointer;
     text-decoration: none;
 }
 
 .figcaption-link:visited, .web-developer:visited {
-    color: gold;
+    color: lightpink;
     cursor: pointer;
     text-decoration: none;
 }
 
 .figcaption-link:hover, .web-developer:hover {
-    color: gold;
+    color: navajowhite;
     cursor: pointer;
-    background-color: #fffffff5;
+    background-color: #6D646D;
     font-size: 1.2em;
     text-decoration: none;
     transition: color .2s ease-in, background-color .3s ease-in;
 }
 
 .figcaption-link:active, .web-developer:active {
-    color: darkorange;
+    color: lightpink;
     cursor: pointer;
-    background-color: #fffffff5;
+    background-color: #6D646D;
     text-decoration: none;
     font-size: 1.5em;
     transition: color .2s ease-in, background-color .3s ease-in;
@@ -171,8 +179,6 @@ footer {
     margin: 5%;
     text-align: center;
 }
-
-
 
 
 
