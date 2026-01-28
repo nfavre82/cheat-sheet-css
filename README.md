@@ -1,6 +1,6 @@
-# 📌 CSS Box Model Cheat Sheet #
+# 📌 CSS Box Model Cheat Sheet
 
-## 📖 1. Project Overview ##
+## 📖 1. Project Overview
 
 This project is a **CSS Box Model Cheat Sheet**, built as part of the Codecademy *Front-End Career Path*.  
 It was created to practice core HTML and CSS concepts while building a clear and visually structured reference page.
@@ -14,18 +14,19 @@ The focus of this project was learning by doing, improving code structure, and a
 
 --- 
 
-## 🔗 2. Live Demo & Repository ##
+## 🔗 2. Live Demo & Repository
 
-### 🌐 Live Demo ###Live Demo (GitHub Pages): ### 
-  **GitHub Page:** You can view the live version of this project on its dedicated 👉[GitHub Page](https://nfavre82.github.io/stylized-to-do-list/).
+### 🌐 Live Demo (GitHub Pages): 
+  
+**GitHub Page:** You can view the live version of this project on its dedicated 👉[GitHub Page](https://nfavre82.github.io/cheat-sheet-css/).
 
-### 📁 Repository ###
+### 📁 Repository
 
 **Source Code:** Click here to consult 👉[the GitHub repository](https://github.com/nfavre82/cheat-sheet-css) for this project.  
 
 ---
 
-## 🧠 3. What I Practiced ##
+## 🧠 3. What I Practiced
 
 - Writing **semantic HTML** for better structure and readability
 - Creating and styling **tables** to present structured information
@@ -36,7 +37,7 @@ The focus of this project was learning by doing, improving code structure, and a
 
 ---
 
-## 📚 4. What I Learned ##
+## 📚 4. What I Learned
 
 - How the **CSS Box Model** works in real layouts, not just in theory
 - The role of properties such as `padding`, `margin`, `border`, and `box-sizing`
@@ -46,7 +47,7 @@ The focus of this project was learning by doing, improving code structure, and a
 
 ---
 
-## 🧱 5. HTML Structure ##  
+## 🧱 5. HTML Structure  
 
 ### Tables and Semantic Elements
 
