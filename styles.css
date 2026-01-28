@@ -16,6 +16,10 @@ ul li {
     margin: 25px 110px; 
 }
 
+.nav-link, .figcaption-link, .web-developer {
+  transition: transform .4s ease, color .3s ease-in, background-color .3s ease-in;
+}
+
 .nav-link:link {
     color: lightpink;
     cursor: pointer;
@@ -31,21 +35,17 @@ ul li {
 .nav-link:hover {
     color: lightpink;
     cursor: pointer;
-    background-color: #6D646D
-;
-    font-size: 1.2em;
+    background-color: #6D646D;
     text-decoration: none;
-    transition: color .2s ease-in, background-color .3s ease-in;
+    transform: scale(1.1);
 }
 
 .nav-link:active {
     color: navajowhite;
     cursor: pointer;
-    background-color: #6D646D
-;
+    background-color: #6D646D;
     text-decoration: none;
-    font-size: 1.5em;
-    transition: color .2s ease-in, background-color .3s ease-in;
+    transform: scale(1.1);
 }
 
 h1, h2 {
@@ -68,11 +68,8 @@ h1 {
     background: linear-gradient(to right, transparent, #e3a8a8, transparent);
 }
 
-.second-subheading, h2 {
-    font-size: 35px;
-}
-
 h2 {
+    font-size: 35px;
     margin-left: 32%;
     padding-bottom: 25px;
 }
@@ -93,7 +90,6 @@ th, td {
 }
 
 table {
-    align-items: center;
     background-color: darkgray;
     border: solid 1px transparent;
     border-collapse: separate;
@@ -101,6 +97,15 @@ table {
     border-spacing: 2.5px;
     margin: auto 15%;
     padding: 1px;
+}
+
+caption {
+  caption-side: top;
+  color: #fffffff5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-bottom: 15px;
 }
 
 .th-styling {
@@ -159,9 +164,8 @@ figcaption {
     color: navajowhite;
     cursor: pointer;
     background-color: #6D646D;
-    font-size: 1.2em;
     text-decoration: none;
-    transition: color .2s ease-in, background-color .3s ease-in;
+    transform: scale(1.1);
 }
 
 .figcaption-link:active, .web-developer:active {
@@ -169,8 +173,7 @@ figcaption {
     cursor: pointer;
     background-color: #6D646D;
     text-decoration: none;
-    font-size: 1.5em;
-    transition: color .2s ease-in, background-color .3s ease-in;
+    transform: scale(1.1);
 }
 
 footer {
@@ -178,6 +181,12 @@ footer {
     font-size: 0.9em;
     margin: 5%;
     text-align: center;
+}
+
+.css-validator-badge {
+    border: 0;
+    width: 88px;
+    height: 31px;
 }
 
 
